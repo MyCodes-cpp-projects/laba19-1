@@ -1,10 +1,11 @@
 ﻿// laba19.1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include <iostream>
+#include "Circle.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Circle a1;
+	a1.display();
 }
 
